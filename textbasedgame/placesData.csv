@@ -1,0 +1,9 @@
+8
+1,You are in a room with blue walls.  There is a green door in the north wall. A yellow door in the western wall and a cupboard door in the eastern wall. There is a Persian rug on the floor.', 0, 0, 0, 0, 0, 0
+2,You are in a store cupboard.  There are some shelves in the cupboard. There is a cupboard door to the west going back to the room.', 0, 0, 0, 0, 0, 0
+3,You are in a small room with a narrow - sloping roof. There is a rocking chair in the room and a bare bed up against one of the walls.  There is a green door in the southern wall.', 0, 0, 0, 0, 0, 0
+4,You are in a long empty corridor.  There is a yellow door in the eastern wall and a room at the western end of the corridor.', 0, 0, 0, 5, 0, 0
+5, 'You are in a guardroom.  There is a metal silver door leading to a jail cell in the southern wall - there is a gold metal door leading to a jail cell in the northern wall.  There is a clear desk with a chair behind it.  Sitting in the chair is a guard.  There is a corridor going eastwards.', 0, 4, 0, 0, 0, 0
+6, 'You are in a jail cell.  To the south there is a gold door.', 0, 0, 0, 0, 0, 0
+7, 'You are in a jail cell.  There is a skeleton in the corner.  To the north there is a silver door.', 5, 0, 0, 0, 0, 0
+8, 'You are in a cellar.  There is a ladder going up.  There is a shelf going around the wall and a barrel on the floor.', 0, 0, 0, 0, 1, 0
