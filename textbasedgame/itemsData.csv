@@ -1,14 +1,11 @@
-13
-2001, 'It is a green door', 'close', 1, 'green door', 'open,close', 'north,3;north,0', 
-12001, 'It is a green door', 'close', 3, 'green door', 'open,close', 'south,1;south,0', 
-2002, 'It is a yellow door', 'close', 1, 'yellow door', 'open,close', 'west,4;west,0', 
-12002, 'It is a yellow door', 'close', 4, 'yellow door', 'open,close', 'east,1;east,0', 
-2003, 'It is a cupboard door', 'close', 1, 'cupboard door', 'open,close', 'east,2;east,0', 
-12003, 'It is a cupboard door', 'close', 2, 'cupboard door', 'open,close', 'west,1;west,0', 
-2004, 'It is a large colourful rug', 'large', 1, 'rug', 'move,get', "say,You can see a trapdoor underneath;say,You can't get that it is too big", 
-2005, 'It is a trapdoor.  There is a ringpull that can be used to open it.', 'close', 1, 'trapdoor', 'open,close', 'down,8;down,0', 
-12005, 'It is a trapdoor.  There is a ringpull that can be used to open it.', 'close', 8, 'trapdoor', 'open,close', 'up,1;up,0', 
-2006, 'It is a wooden rocking chair.  It looks comfortable.', 'usable,large', 3, 'rocking chair', 'use,move,get', "say,Hmmm that is a comfortable chair;say,You can't do that it is attached to the floor;say,You can't get that it is too big", 
-2007, 'It is a bed. There are no sheets or blankets on it but other than that it looks like the one you have at home.', 'usable,large', 3, 'bed', 'use,move', "say,You wake up feeling refreshed and ready to go;say,You can't do that it is attached to the floor", 
-2008, 'There is a set of shelves.', 'container,large', 2, 'shelves', 'move', "say,You can't do that they are attached to the floor", 
-2009, 'The book is badly water-damaged.  Only one page is readable.', 'gettable,medium', 
+30
+2001, "It is a green door", "close", 1, "green door", "open,close", "north,3;north,0"
+12001, "It is a green door", "close", 3, "green door", "open,close", "south,1;south,0"
+2002, "It is a yellow door", "close", 1, "yellow door", "open,close", "west,4;west,0"
+12002, "It is a yellow door", "close", 4, "yellow door", "open,close", "east,1;east,0"
+2003, "It is a cupboard door", "close", 1, "cupboard door", "open,close", "east,2;east,0"
+12003, "It is a cupboard door", "close", 2, "cupboard door", "open,close", "west,1;west,0"
+2004, 'It is a large colourful rug', 'large', 1, 'rug', 'move,get', "say,You can see a trapdoor underneath;say,You can't get that it is too big"
+2005, "It is a trapdoor.  There is a ringpull that can be used to open it.", "close", 1, "trapdoor", "open,close", "down,8;down,0"
+12005, "It is a trapdoor.  There is a ringpull that can be used to open it.", "close", 8, "trapdoor", "open,close", "up,1;up,0"
+2006, "It is a wooden rocking chair.  It looks comfortable.", "usable,large", 3, "rocking chair", "use,move,get", "say,Hmmm that is a comfortable chair;say,You can"t do that it is attached to the floor;say,You can"t get that it is too big"

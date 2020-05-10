@@ -1,6 +1,6 @@
 package textbasedgame;
 
-class Item
+public class Item
 {
     private int ID;
     private String Description;
@@ -20,7 +20,6 @@ class Item
         this.Commands = Commands;
         this.Results = Results;
 
-        
     }
 
     public int getID()
@@ -43,6 +42,21 @@ class Item
         return Description;
     }
     
+    public String getStatus()
+    {
+        return Status;
+    }
+
+    public String getCommands()
+    {
+        return Commands;
+    }
+
+    public String getResults()
+    {
+        return Results;
+    }
+
     //Getter and setter soon.
     @Override
     public String toString()

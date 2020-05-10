@@ -1,6 +1,6 @@
 package textbasedgame;
 
-class Place 
+public class Place 
 {
     private int ID;
     private String Description;

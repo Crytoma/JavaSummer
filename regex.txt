@@ -1,0 +1,2 @@
+End of line delete last character
+[ ,;:/]*$

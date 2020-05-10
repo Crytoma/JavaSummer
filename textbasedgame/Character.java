@@ -1,7 +1,10 @@
 package textbasedgame;
+import java.util.ArrayList;
+import java.util.List;
 
-class Character
+public class Character
 {
+    private List <Character> characterAttributes;
     private int ID;
     private int CurrentLocation;
     private String Name;
@@ -9,10 +12,16 @@ class Character
 
     public Character(int ID, int  CurrentLocation, String Name, String Description)
     {
+        characterAttributes = new ArrayList<Character>();
         this.ID = ID;
         this.CurrentLocation = CurrentLocation;
         this.Name = Name;
         this.Description = Description;
+    }
+
+    public List <Character> getList()
+    {
+        return characterAttributes;
     }
 
     public int getID()

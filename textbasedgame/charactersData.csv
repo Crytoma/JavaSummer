@@ -1,5 +1,3 @@
-4
-1,1002,guard,Tall and shit.
-2,1001,me,Okay and a bit tired.
-3,1002,knight,Skinny and short.
-4,1002,zombie,he is dead.
+100
+1001, "me", "You think you look OK", 1
+1002, "guard", "The guard is about 180cm tall.  He is wearing a red uniform.", 5

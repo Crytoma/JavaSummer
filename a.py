@@ -581,7 +581,7 @@ def Main():
   Items = []
   Characters = []
   Places = []
-  Filename = input("Enter filename> ") + ".gme"
+  Filename = "flag1.gme"
   print()
   while True:
     GameLoaded, Characters, Items, Places = LoadGame(Filename, Characters, Items, Places)
