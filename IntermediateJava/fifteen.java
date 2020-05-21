@@ -22,8 +22,6 @@ public class fifteen {
         q.poll();
         System.out.printf("%s ", q);
 
-        //
-
 
     }
 
