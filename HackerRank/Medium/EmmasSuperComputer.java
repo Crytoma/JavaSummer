@@ -38,7 +38,7 @@ public class EmmasSuperComputer
     
         //System.out.println(twoPluses(newGrid));
 
-        System.out.println(pluses(startingGrid1));
+        System.out.println(pluses(startingGrid2));
 
         System.exit(0);
     }
@@ -83,43 +83,116 @@ NOTES::
             for (int j = 0; j < width; j++)
             {
                 newCharGrid[i][j] = newGrid[i].charAt(j);
-                //System.out.print(newGrid[i].charAt(j));
+                System.out.print(newGrid[i].charAt(j));
             }   
-           // System.out.println(); 
+            System.out.println(); 
         }
+        System.out.println();
 
-        //System.out.println();
-
-        int plusSpan = 1;
+ /*       int plusSpan = 0;
         int plusArea = 0;
-        int plus2Area = 0;
-        int totalArea = 0;
+        int largestPlus = 1;
+        int secondLargestPlus = 0;
         int x = 0;
         int y = 0;
 
-            for (int i = 0 + plusSpan; i < height - plusSpan; i++)
+
+        for (int i = 0 + plusSpan; i < height - plusSpan; i++)
+        {
+            for (int j = 0 + plusSpan; j < width - plusSpan; j++)
             {
-                for (int j = 0 + plusSpan; j < width - plusSpan; j++)
+                if (newCharGrid[i][j] == 'G')
                 {
-                    if (newCharGrid[i][j] == 'G')
-                    {//Chec up down left right.
-                        if (newCharGrid[i-plusSpan][j] == 'G' && newCharGrid[i+plusSpan][j] == 'G' && newCharGrid[i][j-plusSpan] == 'G' && newCharGrid[i][j+plusSpan] == 'G' && j != x && i != y)
+                    if (newCharGrid[i-plusSpan][j] == 'G' && newCharGrid[i+plusSpan][j] == 'G' && newCharGrid[i][j-plusSpan] == 'G' && newCharGrid[i][j+plusSpan] == 'G')
+                    {
+                        plusArea = ((plusSpan) * 4  + 1);
+                        System.out.println("We found a 'good' plus of area: " + plusArea + " at y: " + i + " x: " + j);
+
+                      
+                                boolean succeed = true;
+
+                                while (succeed)
+                                {
+                                    int forceSpan = 0;
+
+                                    if (newCharGrid[i-forceSpan][j] == 'G' && newCharGrid[i+forceSpan][j] == 'G' && newCharGrid[i][j-forceSpan] == 'G' && newCharGrid[i][j+forceSpan] == 'G')
+                                    {
+                                        plusArea = ((plusSpan) * 4  + 1);
+                                        System.out.println("We found a 'good' plus of area: " + plusArea + " at y: " + i + " x: " + j);
+                                        forceSpan += 1;
+                                    }
+                                    else
+                                    {
+                                        succeed = false;
+                                    }
+                                }
+                                
+                     
+                        if (plusArea > largestPlus)
                         {
-                            if (j != x && i != y)
-                           {
-                               plus2Area = plusArea;
-                           }
-                            y = i; 
+                            largestPlus = plusArea;
                             x = j;
-                           plusArea = ((plusSpan) * 4  + 1);
-                           System.out.println("We found a good plus of area: " + plusArea + " at y: " + y + " x: " + x);             
-                        }        
-                    }  
+                            y = i;
+                        }
+                    }
                 }
             }
-            return plusArea * plus2Area;
-    }
+        }
 
+
+*/
+
+
+
+
+int plusSpan = 0;
+int plusArea = 0;
+int largestPlus = 1;
+int secondLargestPlus = 0;
+int x = 0;
+int y = 0;
+
+
+        
+        for (int i = 0 + plusSpan; i < height - plusSpan; i++)
+        {
+            for (int j = 0 + plusSpan; j < width - plusSpan; j++)
+            {
+                if (newCharGrid[i][j] == 'G')
+                {
+
+                   
+
+                    while (plusSpan != 15)
+                    {
+                                        
+                                    if (newCharGrid[i-plusSpan][j] == 'G' && newCharGrid[i+plusSpan][j] == 'G' && newCharGrid[i][j-plusSpan] == 'G' && newCharGrid[i][j+plusSpan] == 'G')
+                                    {
+                                        plusArea = ((plusSpan) * 4  + 1);
+                                        System.out.println("We found a 'good' plus of area: " + plusArea + " at y: " + i + " x: " + j);
+                                        
+                                    }
+
+                                    plusSpan += 1;
+                                
+                                
+                    }  
+                     
+
+                        if (plusArea > largestPlus)
+                        {
+                            largestPlus = plusArea;
+                            x = j;
+                            y = i;
+                        }
+                    }
+                }
+            }
+
+        System.out.println();
+        
+        return 0;
+    }    
 }//End of EmmasSuperComputer class.
 
 

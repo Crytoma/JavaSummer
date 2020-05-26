@@ -13,8 +13,6 @@ public class RecursiveStaircase
 
 
 
-
-
     public static int num_ways1(int n)
     {
       //Can only take 1 or 2 steps at a time.
