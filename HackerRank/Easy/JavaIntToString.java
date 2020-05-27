@@ -16,8 +16,6 @@ public class JavaIntToString {
 
         String s = String.valueOf(n);
 
-
-
    if (n == Integer.parseInt(s)) {
     System.out.println("Good job");
    } else {
