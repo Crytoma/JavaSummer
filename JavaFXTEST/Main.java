@@ -12,8 +12,6 @@ public class Main extends Application
 {
     Button button1;
 
-
-
     public static void main(String[] args) 
     {
         launch(args);
@@ -46,7 +44,4 @@ Content inside the STAGE is the SCENE.
         primaryStage.show();
 
     }
-
-
-
 }
